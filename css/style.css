@@ -25,3 +25,34 @@ h2 {
 .btn-reverse:hover {
     background-color: #ebe9e9;
 }
+footer {
+    color: white;
+    background-color: #0b0b30;
+    min-height: 150px;
+    padding: 10px 0px;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.app-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* media query */
+@media only screen and (max-width:688px){
+    .footer-container {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-item {
+        max-width: 280px;
+    }
+    .app-container {
+        display: inline;
+    }
+    
+}
