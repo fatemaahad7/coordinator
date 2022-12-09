@@ -5,3 +5,19 @@
 h2 {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+.un-list {
+    list-style: none;
+}
+.fa-regular.fa-circle-check {
+    color: dodgerblue;
+}
+.fa-circle-check.different-check {
+    color: lightblue;
+}
+.btn-reverse {
+    color: blue;
+    background-color: white;
+}
+.btn-reverse:hover {
+    background-color: #ebe9e9;
+}
