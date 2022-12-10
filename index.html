@@ -17,7 +17,7 @@
         <!------------------ navigation ------------------>
         <nav class="navbar navbar-expand-lg bg-light">
             <div class="container">
-              <a class="navbar-brand" href="#" style="font-family: 'Lato', sans-serif;">COORDINATOR</a>
+              <a class="navbar-brand" href="#" style="font-family: 'Lato', sans-serif;">Co-ORDINATOR</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -27,10 +27,13 @@
                     <a class="nav-link fw-bold" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#">About</a>
+                    <a class="nav-link fw-bold" href="#about">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link fw-bold" href="#">Contact</a>
+                    <a class="nav-link fw-bold" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link fw-bold" href="#faq">FAQ</a>
                   </li>
                 </ul>
               </div>
@@ -56,7 +59,7 @@
                 <img src="images/banner-2.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h5>Plan the Perfect Wedding</h5>
-                  <p>"Coordinator" provides wedding planning, styling and catering all under one roof.</p>
+                  <p>"Co-ORDINATOR" provides wedding planning, styling and catering all under one roof.</p>
                   <a href=""><button type="button" class="btn btn-primary">Book Now</button></a>
                 </div>
               </div>
@@ -97,8 +100,20 @@
             </div>
         </section>
 
+        <!------------------ toast ------------------>
+        <div class="position-relative" style="height: 80px;">
+          <div class="toast align-items-center border-0 text-bg-primary show position-absolute top-0 end-0" role="alert" aria-live="assertive" aria-atomic="false" id="liveToast">
+            <div class="d-flex">
+              <div class="toast-body">
+                <i class="fa-solid fa-gift"></i> 25% off on next booking
+              </div>
+              <button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+          </div>
+        </div>
+
         <!------------------ planing, styling, catering ------------------>
-        <section class="container mb-5">
+        <section class="container mb-5" id="about">
             <div class="row">
                 <div class="col-sm-10 col-md-6">
                     <div class="card border-0">
@@ -127,7 +142,8 @@
                 </div>
             </div>
         </section>
-
+        <!-- toast -->
+        
         <!------------------ package ------------------>
         <section class="container my-5">
           <h2 class="section-title">OUR PACKAGES</h2>
@@ -215,7 +231,7 @@
 
 
         <!------------------ frequently asked ------------------>
-        <section class="container mb-4">
+        <section class="container mb-4" id="faq">
           <h2 class="section-title">Frequently Asked Questions</h2>
           <div class="row">
             <div class="col-12 col-lg-6">
@@ -278,7 +294,7 @@
     </main>
 
     <footer class="footer-container">
-      <address class="footer-item">
+      <address class="footer-contact" id="contact">
         Email : <a class="text-decoration-none" href="">co.ordinator.sevice@gmail.com</a>
         <br>
         Visit : 5th Main, 18th Cross,
